@@ -1,0 +1,93 @@
+.goUp0 {
+    animation: goUpAnimation0 2s forwards, fadeOut 2s forwards;
+}
+
+@keyframes goUpAnimation0 {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(0px, -400px);
+    }
+}
+
+.goUp1 {
+    animation: goUpAnimation1 2s forwards, fadeOut 2s forwards;
+}
+
+@keyframes goUpAnimation1 {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(0px, -300px);
+    }
+}
+
+.goUp2 {
+    animation: goUpAnimation2 2s forwards, fadeOut 2s forwards;
+}
+
+@keyframes goUpAnimation2 {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(0px, -200px);
+    }
+}
+
+.leftRight0 {
+    animation: leftRightAnimation0 0.3s alternate infinite ease-in-out;
+}
+
+@keyframes leftRightAnimation0 {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(50px, 0px);
+    }
+}
+
+.leftRight1 {
+    animation: leftRightAnimation1 0.3s alternate infinite ease-in-out;
+}
+
+@keyframes leftRightAnimation1 {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(100px, 0px);
+    }
+}
+
+.leftRight2 {
+    animation: leftRightAnimation2 0.3s alternate infinite ease-in-out;
+}
+
+@keyframes leftRightAnimation2 {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(-50px, 0px);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
